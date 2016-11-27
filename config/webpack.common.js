@@ -127,6 +127,10 @@ module.exports = function (options) {
           test: /\.css$/,
           use: ['to-string-loader', 'css-loader']
         },
+        {
+          test: /\.styl$/,
+          loaders: ['to-string-loader', 'css-loader', 'stylus-loader']
+        },
 
         /* Raw loader support for *.html
          * Returns file content as string
@@ -137,6 +141,10 @@ module.exports = function (options) {
           test: /\.html$/,
           use: 'raw-loader',
           exclude: [helpers.root('src/index.html')]
+        },
+        {
+          test: /\.(pug|jade)$/,
+          loader: 'pug-html-loader'
         },
 
         /* File loader for supporting images, for example, in CSS files.
