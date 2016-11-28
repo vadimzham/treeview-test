@@ -1,18 +1,1 @@
-.card-container
-  h1.sample-content(x-large='') Your Content Here
-  div
-    | For material design components use the
-    a(href='https://github.com/AngularClass/angular2-webpack-starter/tree/material2')
-      b material2
-    |  branch
-  hr
-  div
-    | For hot module reloading run
-    pre npm run start:hmr
-  hr
-  div
-    h4 Local State
-    form((ngsubmit)='submitState(localState.value)', autocomplete='off')
-      input([value]='localState.value', (input)='localState.value = $event.target.value', placeholder='Submit Local State to App State', autofocus='')
-      button(md-raised-button='', color='primary') Submit Value
-    pre this.localState = {{ localState | json }}
+button((click)='onClick(1)') Go to group 1

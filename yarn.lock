@@ -1734,6 +1734,10 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+font-awesome@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+
 for-in@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.6.tgz#c9f96e89bfad18a545af5ec3ed352a1d9e5b4dc8"
@@ -3884,6 +3888,10 @@ pretty-error@^2.0.2:
   dependencies:
     renderkid "~2.0.0"
     utila "~0.4"
+
+primeng@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/primeng/-/primeng-1.0.0.tgz#dbfd493e57963ff40acc79370b4e384f36eda8ad"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"

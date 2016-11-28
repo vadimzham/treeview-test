@@ -1,0 +1,7 @@
+p-tree(*ngIf='groups', [value]='groups', (onNodeExpand)='loadNodes($event)')
+  <template let-group  pTemplate type="default">
+    input([(ngModel)]='group.label', (blur)='changeGroup(group)')
+  </template>
+h3 The group name will be updated when input focus will be lost.
+h1(*ngIf='message') {{message}}
+h1(*ngIf='error') {{error}}

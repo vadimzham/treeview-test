@@ -15,9 +15,10 @@ import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
-import { AboutComponent } from './about';
+import { GroupComponent } from './group';
 import { NoContentComponent } from './no-content';
-import { XLarge } from './home/x-large';
+
+import { TreeModule } from 'primeng/primeng';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -38,15 +39,15 @@ type StoreType = {
   bootstrap: [ AppComponent ],
   declarations: [
     AppComponent,
-    AboutComponent,
     HomeComponent,
-    NoContentComponent,
-    XLarge
+    GroupComponent,
+    NoContentComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
     FormsModule,
     HttpModule,
+    TreeModule,
     RouterModule.forRoot(ROUTES, { useHash: true, preloadingStrategy: PreloadAllModules })
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
@@ -93,4 +94,3 @@ export class AppModule {
   }
 
 }
-

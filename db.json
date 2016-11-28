@@ -1,0 +1,58 @@
+{
+  "group": [
+    {
+      "id": "1",
+      "group_id": 1,
+      "children_groups_ids": [
+        2,
+        3
+      ],
+      "group_name": "Group 1"
+    },
+    {
+      "id": 2,
+      "group_id": 2,
+      "children_groups_ids": [
+        4,
+        5,
+        6
+      ],
+      "group_name": "Group 2"
+    },
+    {
+      "id": 3,
+      "group_id": 3,
+      "children_groups_ids": [
+        2,
+        3
+      ],
+      "group_name": "Group 3"
+    },
+    {
+      "id": 4,
+      "group_id": 4,
+      "children_groups_ids": [
+        7
+      ],
+      "group_name": "Group 4"
+    },
+    {
+      "id": "5",
+      "group_id": 5,
+      "children_groups_ids": [],
+      "group_name": "Group 5"
+    },
+    {
+      "id": 6,
+      "group_id": 6,
+      "children_groups_ids": [],
+      "group_name": "Group 6"
+    },
+    {
+      "id": "7",
+      "group_id": 7,
+      "children_groups_ids": [],
+      "group_name": "Group 7"
+    }
+  ]
+}
